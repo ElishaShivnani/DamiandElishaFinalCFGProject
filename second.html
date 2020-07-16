@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <script src="javascript.js"></script> 
+
+</head>
+<body>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."navbar.html"); ?>
+    <header>
+        <a class="button" href="https://codefirstgirls.org.uk/"><button>Contact</button></a>      
+        <img src="mountains_road_journey_133611_2048x1152.jpg" alt="background">
+    </header>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" class="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" class="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+</body>
+</html>
